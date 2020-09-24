@@ -7,7 +7,7 @@ const routes=require('./Routes/auth')
 const Blog=require('./models/newblog');
 const blogUser = require('./models/user');
 
-const port =process.env.port || 4000;
+const port =process.env.PORT || 4000;
 
 // app instance from express
 const app=express();
